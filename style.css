@@ -8,8 +8,8 @@ h1 {
 }
 
 .content {
-  margin: 0 auto;
-  width: 250px;
+  margin: auto;
+  width: 260px;
 }
 
 .input {
@@ -42,12 +42,16 @@ nav {
   justify-content: flex-end;
   list-style: none;
   background: white;
+  padding: 47px 0 0;
 }
 
-.navigation a, .footernav a {
+.navigation a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
+  white-space: nowrap;
   color: black;
+  padding: 0 0 0 15px;
+  font-size: 13 px;
 }
 
 /* Style footer */ 
@@ -59,11 +63,11 @@ ul.footernav{
 }
 
 .footernav a {
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
   font-size: 14px; 
   color: #5f6368;
-  display: inline-block;
-  text-decoration: none;
-  white-space: nowrap;
   padding: 0 0 0 27px;
   line-height: 40px;
 }
@@ -125,6 +129,7 @@ form.search button {
   height: 36px;
   min-width: 54px;
   user-select: none;
+  text-align: center;
 }
 
 #button1 {
