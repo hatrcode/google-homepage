@@ -6,19 +6,35 @@
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  
+  <style>
+      #signin {
+        display: inline-block;
+        line-height: 28px;
+        padding: 0 12px;
+        outline: none;
+        border: 1px solid #4285f4;
+        border-radius: 2px;
+        background-color: #4387fd;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px;
+        color: white;
+        font-family: arial,sans-serif;
+        cursor: default;
+        white-space: nowrap;
+      }
+  </style>
 <body>
   <header>
     <nav>
       <ul class="navigation">
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Advanced search</a></li>
+        <li><a id="signin" href="https://accounts.google.com/ServiceLogin">Sign in</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <img alt="Google logo" src="images/googlelogo.png" class="center">
+    <img alt="Google images logo" src="images/googleimg.png" class="center" height="100px">
     <!-- Search form -->
     <div class="content">
       <form class="search">
