@@ -36,7 +36,7 @@ nav {
   font-size: 13px;
 }
 
-.navigation, .right-nav {
+.navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -47,7 +47,6 @@ nav {
 .navigation a, .footernav a {
   text-decoration: none;
   display: block;
-  padding: 1em;
   color: black;
 }
 
@@ -56,7 +55,6 @@ nav {
 ul.footernav{
   width: 100%;
   background: #f2f2f2;
-  line-height: 20px;
   border-top: 1px solid #e4e4e4;
 }
 
@@ -66,6 +64,8 @@ ul.footernav{
   display: inline-block;
   text-decoration: none;
   white-space: nowrap;
+  padding: 0 0 0 27px;
+  line-height: 40px;
 }
 
 .footernav {
@@ -80,7 +80,7 @@ ul.footernav{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 109px 0 20px 0;
+  padding: 109px 0 30px 0;
 }
 
 /* Style the search field */
